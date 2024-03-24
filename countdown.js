@@ -12,3 +12,19 @@ let months = [
     "November",
     "December"
 ]
+
+let weekDays = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+]
+
+let deadline = document.querySelector(".deadline");
+let giveaway = document.querySelector(".giveaway");
+let items = document.querySelectorAll(".btn h2");
+
+

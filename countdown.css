@@ -23,9 +23,10 @@ section{
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-left: 3rem;
+    margin-left: 3rem;      
     justify-content: flex-start;
     max-width: 400px;
+    margin-top: 3rem;
     }
 
     h3{
@@ -44,24 +45,27 @@ section{
         letter-spacing: 1px;
     }
 
-    .separate{
+    .deadline{
         display: flex;
         gap: 10px;
     
     }
     .btn{
         background-color: rgb(2, 2, 37);
-        padding: 20px;
+        padding: 0 20px;
         color: white;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
         align-items: center;
         text-transform: uppercase;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bold;
     }
 
-span{
-    margin-top: 10px;
-}
+    span{
+        margin-bottom: 10px;
+        margin-top: -10px;
+    }
