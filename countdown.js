@@ -29,7 +29,15 @@ let giveaway = document.querySelector(".giveaway");
 let items = document.querySelectorAll(".btn h2");
 
 
-let futureDate = new Date(2024, 4, 20, 13, 45, 0);
+
+const tempDate = new Date();
+const tempYear = tempDate.getFullYear();
+const tempMonth = tempDate.getMonth();
+const tempDay = tempDate.getDate();
+
+
+const futureDate = new Date(tempYear, tempMonth, tempDay + 10, 13, 30, 0)
+//let futureDate = new Date(2024, 4, 20, 13, 45, 0);
 console.log(futureDate);
 
 const year = futureDate.getFullYear();
